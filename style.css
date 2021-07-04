@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.login {
+    margin:100px auto;
+    width:300px;
+    height:400px;
+    border:1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+#login-input {
+    margin:0 0  20px 0
+}
+#password-input {
+    margin:0 0  20px 0
+}
+#buttLog {
+    width:80px;
+    height:20px;
+    margin:20px 0 20px 0
+}
+
+
+.registration {
+    
+    margin:100px auto;
+    width:300px;
+    height:400px;
+    border:1px solid  rgb(211, 211, 211);
+    border-radius: 10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+#login-input {
+    margin:0 0  20px 0
+}
+#password-input {
+    margin:0 0  20px 0
+}
+#buttLog {
+    width:80px;
+    height:20px;
+    margin:20px 0 20px 0
+}
+#login-input-reg {
+    margin:0 0  20px 0
+}
+#password-input-reg {
+    margin:0 0  20px 0
+}
+#buttReg {
+    width:80px;
+    height:20px;
+    margin:20px 0 20px 0
+}
+.menu {
+    display:none;
+    justify-content: center;
+    background-color: #ce89c8;
+    color:white;
+    height: 65px;
+    align-items: center;
+    font-size: 22px;
+    margin:0 0 12px 0;
+}
+.menu>div {
+    padding:10px
+}
+.contacts {
+    display:inline-block;
+    text-align: center;
+}
+#map {
+    height:800px;
+    width: 90%;
+    margin:0 auto;
+    display:none;
+    padding:20px;
+}
+.table {
+    border: 1px solid rgb(0, 0, 0); 
+    border-collapse: collapse;
+    margin: 0px auto; 
+    width: 90%; 
+    
+}
+.contacts-table {
+    height: 800px;
+    overflow-y: scroll;
+    display:none
+}
+.info {
+    display:flex;
+    justify-content: space-around;
+    padding:16px
+}
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main h1 {
+    padding:16px;
+}

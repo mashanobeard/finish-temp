@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login">
+        <label for="">e-mail</label>
+        <input type="email" id="login-input">
+        <label class="">password</label>
+        <input id="password-input" type="text">
+        <button id="buttLog" disabled>enter</button>
+        <a onclick="registration()">registration</a>
+    </div>
+    <div class="registration">
+        <label for="">e-mail</label>
+        <input type="email" id="login-input-reg">
+        <label class="">password</label>
+        <input id="password-input-reg" type="text">
+        <label class="">Confirm Password </label>
+        <input id="cp" type="text">
+        <button id="buttReg" disabled>registration</button>
+        <a onclick="k()">login</a>
+    </div>
+    <div class="menu">
+        <div id='nav-main' onclick="mainSection()">главная</div>
+        <div id='nav-cont' onclick="getData()">контакты</div>
+
+        <div id='nav-map' onclick="getMap()"></div>
+        <div id='nav-logout' onclick="back()">выйти</div>
+
+    </div>
+    <div class="main">
+
+    </div>
+    <div class='contacts'>
+        <div class='contacts-table'></div>
+    </div>
+    <div id="map"></div>
+
+
+
+    <script src="index.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEeHWzZszp6jARceUQLK23lQ9fDz9ro2s&callback=initMap">
+        </script>
+</body>
+
+</html>
